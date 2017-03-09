@@ -11,6 +11,13 @@ public class MainActivity extends BaseActivity {
         System.out.println("Sample text");
     }
 
+    @Override
+    public void addition(int a, int b) {
+//        super.addition(a, b);
+        c = a + b + 10;
+        System.out.println(c);
+    }
+
     public static void main(String args[]) {
         int a = 10, b = 20;
         MainActivity base = new MainActivity();

@@ -3,7 +3,7 @@ package test.myapplicationtest.test2;
 public class MyActivity implements MyInterface {
 
     public void eat() {
-        System.out.println("Eat");
+        System.out.println("Pizza");
     }
 
     public void work() {

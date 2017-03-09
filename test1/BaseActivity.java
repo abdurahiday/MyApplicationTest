@@ -16,4 +16,15 @@ public abstract class BaseActivity {
 
     public abstract void sample();
 
+    public static void main(String args[]) {
+        int a = 10, b = 20;
+        BaseActivity base = new BaseActivity() {
+            @Override
+            public void sample() {
+
+            }
+
+        };
+        base.addition(a, b);
+    }
 }
