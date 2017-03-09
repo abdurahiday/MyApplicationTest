@@ -9,4 +9,9 @@ public class My2Activity {
     public void eat() {
         System.out.println("Noodle");
     }
+
+    public static void main(String args[]) {
+        MyActivity myActivity = new MyActivity();
+        myActivity.eat();
+    }
 }
