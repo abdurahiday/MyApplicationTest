@@ -6,18 +6,18 @@ public class MyActivity implements MyInterface {
         System.out.println("Eat");
     }
 
-    public void sleep() {
-        System.out.println("Sleep");
+    public void work() {
+        System.out.println("Work");
     }
 
-    public void work()  {
-        System.out.println("Work");
+    public void swim()  {
+        System.out.println("Swim");
     }
 
     public static void main(String args[]) {
         MyActivity myActivity = new MyActivity();
         myActivity.eat();
-        myActivity.sleep();
         myActivity.work();
+        myActivity.swim();
     }
 }

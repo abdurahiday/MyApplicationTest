@@ -7,11 +7,16 @@ public class MainActivity extends BaseActivity {
         System.out.println(c);
     }
 
+    public void sample() {
+        System.out.println("Sample text");
+    }
+
     public static void main(String args[]) {
         int a = 10, b = 20;
         MainActivity base = new MainActivity();
         base.addition(a, b);
         base.subtraction(a, b);
         base.multiplication(a, b);
+        base.sample();
     }
 }

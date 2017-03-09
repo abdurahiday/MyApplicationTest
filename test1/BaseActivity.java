@@ -1,6 +1,6 @@
 package test.myapplicationtest.test1;
 
-abstract class BaseActivity {
+public abstract class BaseActivity {
 
     int c;
 
@@ -14,7 +14,6 @@ abstract class BaseActivity {
         System.out.println(c);
     }
 
-    public void sample() {
+    public abstract void sample();
 
-    }
 }

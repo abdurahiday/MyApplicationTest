@@ -5,7 +5,7 @@ package test.myapplicationtest.test2;
  */
 
 interface MyInterface {
-    public void eat();
-    public void sleep();
-    public void work();
+    void eat();
+    void work();
+    void swim();
 }
