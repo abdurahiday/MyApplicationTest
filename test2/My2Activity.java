@@ -11,7 +11,7 @@ public class My2Activity {
     }
 
     public static void main(String args[]) {
-        MyActivity myActivity = new MyActivity();
-        myActivity.eat();
+        My2Activity my2Activity = new My2Activity();
+        my2Activity.eat();
     }
 }
