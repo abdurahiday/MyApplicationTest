@@ -1,4 +1,4 @@
-package test.myapplicationtest.bank;
+package test.myapplicationtest.java;
 
 /**
  * Created by rahman on 3/18/17.

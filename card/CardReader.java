@@ -6,23 +6,28 @@ package test.myapplicationtest.card;
 
 public class CardReader {
 
-    public static void main(String[] args) {
-        CardReader cardReader = new CardReader();
-        cardReader.readCard(new CardA(1010));
-        cardReader.readCard(new CardB(1111));
-        int[] myArray = {1010, 1111};
-        int[] myArray2 = new int[1010];
-    }
-
     void readCard(Card card) {
-        //TODO: read id number, print number
-        System.out.println(card.idNumber);
-        //TODO: print card type
-        System.out.println(card.cardType);
+        System.out.println(card.idNumber); // read idnumber, print idnumber
+        System.out.println(card.cardType); // print cardtype
         System.out.println();
     }
 
+    public static void main(String[] args) {
+        CardReader cardReader = new CardReader();
+        cardReader.readCard(new CardA(1000));
+        cardReader.readCard(new CardB(1111));
 
+        int myArray[] = {1000, 1111};
+        System.out.println(myArray[0]);
+        System.out.println(myArray[1]);
+        System.out.println();
+
+        for (int count=0; count<2; count++) {
+            System.out.println(myArray[0]);
+            System.out.println(myArray[1]);
+        }
+
+    }
 }
 
 // create array

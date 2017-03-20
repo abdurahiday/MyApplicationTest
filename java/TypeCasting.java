@@ -1,6 +1,6 @@
-package test.myapplicationtest.demo;
+package test.myapplicationtest.java;
 
-public class Demo {
+public class TypeCasting {
     public static void main(String args[]) {
 
         byte b;
